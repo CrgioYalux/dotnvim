@@ -1,0 +1,6 @@
+require 'azul.plugs'
+require 'azul.vimtex_config'
+require 'azul.markdown_config'
+require 'azul.treesitter_config'
+require 'azul.sets'
+require 'azul.keymaps'

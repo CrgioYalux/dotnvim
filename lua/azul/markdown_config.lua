@@ -1,0 +1,19 @@
+local set = vim.g
+
+set.mkdp_auto_start = 0
+set.mkdp_auto_close = 1
+set.mkdp_refresh_slow = 1
+set.mkdp_command_for_global = 0
+set.mkdp_open_to_the_world = 0
+set.mkdp_open_ip = ''
+set.mkdp_browser = ''
+set.mkdp_echo_preview_url = 0
+set.mkdp_browserfunc = ''
+set.mkdp_markdown_css = ''
+set.mkdp_highlight_css = ''
+set.mkdp_port = ''
+set.mkdp_page_title = '「${name}」'
+set.mkdp_filetypes = {'markdown'}
+set.mkdp_theme = 'dark'
+set.mkdp_combine_preview = 0
+set.mkdp_combine_preview_auto_refresh = 1
