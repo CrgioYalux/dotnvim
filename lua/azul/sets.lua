@@ -9,7 +9,7 @@ seto.mouse = 'a'
 seto.hlsearch = false
 seto.completeopt = 'menuone,noselect'
 
-seto.undofile = false 
+seto.undofile = false
 seto.updatetime = 250
 
 seto.ignorecase = true
