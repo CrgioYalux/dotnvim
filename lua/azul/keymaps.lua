@@ -17,3 +17,10 @@ remap.set('v', '<Space>p', '"+p', { silent = true })
 
 -- To go to the explorer
 remap.set('n', '<Space>rr', ':R<CR>', { silent = true })
+
+-- Telescope
+local builtin = require('telescope.builtin')
+remap.set('n', '<leader>ff', builtin.find_files, {})
+remap.set('n', '<leader>fg', builtin.live_grep, {})
+remap.set('n', '<leader><space>', builtin.buffers, {})
+remap.set('n', '<leader>fh', builtin.help_tags, {})
