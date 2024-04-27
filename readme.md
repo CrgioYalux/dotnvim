@@ -6,10 +6,13 @@
 - [Nvim-TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Mason](https://github.com/williamboman/mason-lspconfig.nvim)
 - [Nvim-LspConfig](https://github.com/neovim/nvim-lspconfig)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 ### Requirements
 - [latexmk](https://www.cantab.net/users/johncollins/latexmk/index.html) - or some latex compiler backend compatible with VimTeX.
 - [zathura](https://pwmt.org/projects/zathura/) - or some document viewer compatible with VimTeX (should be set in the `vimtex_config.lua` file)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
 
 ### Why
 I've been using NeoVim for quite a long time now and each time I had to set a new environment I would use distributions, e.g., LunarVim, NvChad, kickstart.nvim; most of them settle right enough with me —they are fast, very easy to use and get up and running— but I will always end up saying: "Next time I will configure my own."
@@ -26,5 +29,5 @@ For this configuration everything has been deeply thought of; each plugin, confi
 - https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/
 
 ### Todo - good to have
-- [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- Keymaps for jumping into files through mentions of them
 - Some git utils
