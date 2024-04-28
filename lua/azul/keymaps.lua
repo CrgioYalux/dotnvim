@@ -1,3 +1,4 @@
+local vim = vim
 local remap = vim.keymap
 
 -- Keymaps for better default experience
@@ -24,3 +25,6 @@ remap.set('n', '<leader>ff', builtin.find_files, {})
 remap.set('n', '<leader>fg', builtin.live_grep, {})
 remap.set('n', '<leader><space>', builtin.buffers, {})
 remap.set('n', '<leader>fh', builtin.help_tags, {})
+
+-- Diagnostic
+remap.set('n', '<leader>e', vim.diagnostic.open_float)

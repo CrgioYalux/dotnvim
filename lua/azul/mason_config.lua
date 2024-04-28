@@ -4,6 +4,9 @@ local mason_lspconfig = require('mason-lspconfig')
 
 local vim = vim
 
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
 local servers = {
     clangd = {},
     cssls = {},
@@ -40,8 +43,9 @@ mason_lspconfig.setup {
 mason_lspconfig.setup_handlers {
     function(server_name)
         lspconfig[server_name].setup {
-            on_attach = on_attach,
-            settings = servers[server_name]
+            capabilities = capabilities,
+            settings = servers[server_name],
+            on_attach = on_attach
         }
     end
 }

@@ -39,4 +39,7 @@ Plug(
     }
 )
 
+Plug('hrsh7th/cmp-nvim-lsp')
+Plug('hrsh7th/nvim-cmp')
+
 vim.call('plug#end')
