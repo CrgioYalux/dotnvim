@@ -29,5 +29,4 @@ For this configuration everything has been deeply thought of; each plugin, confi
 - https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/
 
 ### Todo - good to have
-- Keymaps for jumping into files through mentions of them
 - Some git utils
