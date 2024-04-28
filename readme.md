@@ -7,6 +7,7 @@
 - [Mason](https://github.com/williamboman/mason-lspconfig.nvim)
 - [Nvim-LspConfig](https://github.com/neovim/nvim-lspconfig)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [Autocomplete](https://github.com/hrsh7th/nvim-cmp)
 
 ### Requirements
 - [latexmk](https://www.cantab.net/users/johncollins/latexmk/index.html) - or some latex compiler backend compatible with VimTeX.
