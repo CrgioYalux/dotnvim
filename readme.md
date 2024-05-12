@@ -10,6 +10,7 @@
 - [Autocomplete](https://github.com/hrsh7th/nvim-cmp)
 
 ### Requirements
+- Neovim v0.10+ (for native neovim snippets - if not, use a different snippet engine and specify it on the `autocmp_config.lua` file)
 - [latexmk](https://www.cantab.net/users/johncollins/latexmk/index.html) - or some latex compiler backend compatible with VimTeX.
 - [zathura](https://pwmt.org/projects/zathura/) - or some document viewer compatible with VimTeX (should be set in the `vimtex_config.lua` file)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
