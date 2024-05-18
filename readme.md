@@ -1,13 +1,14 @@
 ### Provided
-- [Vim Plug](https://github.com/junegunn/vim-plug)
-- [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim)
-- [Colorscheme Gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
-- [VimTeX](https://github.com/lervag/vimtex)
-- [Nvim-TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [Mason](https://github.com/williamboman/mason-lspconfig.nvim)
-- [Nvim-LspConfig](https://github.com/neovim/nvim-lspconfig)
-- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [Plugins Manager - Vim Plug](https://github.com/junegunn/vim-plug)
+- [LSPs Manager - Mason](https://github.com/williamboman/mason-lspconfig.nvim)
+- [LSP Config](https://github.com/neovim/nvim-lspconfig)
+- [Parser](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Autocomplete](https://github.com/hrsh7th/nvim-cmp)
+- [Files Finder](https://github.com/nvim-telescope/telescope.nvim)
+- [Markdown](https://github.com/iamcco/markdown-preview.nvim)
+- [Latex](https://github.com/lervag/vimtex)
+- [Buffer-Based Filesystem](https://github.com/stevearc/oil.nvim)
+- [Theme - Gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 
 ### Requirements
 - Neovim v0.10+ (for native neovim snippets - if not, use a different snippet engine and specify it on the `autocmp_config.lua` file)
