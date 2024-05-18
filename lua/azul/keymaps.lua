@@ -25,6 +25,10 @@ remap.set('n', '<leader>ff', builtin.find_files, {})
 remap.set('n', '<leader>fg', builtin.live_grep, {})
 remap.set('n', '<leader><space>', builtin.buffers, {})
 remap.set('n', '<leader>fh', builtin.help_tags, {})
+remap.set('n', '<leader>sw', builtin.grep_string, {})
+
+-- Oil
+remap.set('n', '-', '<CMD>Oil<CR>', {});
 
 -- Diagnostic
 remap.set('n', '<leader>e', vim.diagnostic.open_float)

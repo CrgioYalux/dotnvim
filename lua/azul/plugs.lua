@@ -42,4 +42,6 @@ Plug(
 Plug('hrsh7th/cmp-nvim-lsp')
 Plug('hrsh7th/nvim-cmp')
 
+Plug('stevearc/oil.nvim')
+
 vim.call('plug#end')

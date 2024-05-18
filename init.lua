@@ -1,1 +1,1 @@
-require "azul"
+require 'azul'
