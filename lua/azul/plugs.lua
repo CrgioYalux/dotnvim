@@ -14,6 +14,8 @@ Plug(
 
 Plug('ellisonleao/gruvbox.nvim') -- theme
 
+Plug('lukas-reineke/indent-blankline.nvim') -- indentation lines
+
 Plug(
     'nvim-treesitter/nvim-treesitter',
     {
