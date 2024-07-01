@@ -8,6 +8,7 @@
 - [Markdown](https://github.com/iamcco/markdown-preview.nvim)
 - [Latex](https://github.com/lervag/vimtex)
 - [Buffer-Based Filesystem](https://github.com/stevearc/oil.nvim)
+- [Visual Aid for Indentation](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [Theme - Gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 
 ### Requirements
