@@ -12,7 +12,12 @@ Plug(
     }
 )
 
-Plug('ellisonleao/gruvbox.nvim') -- theme
+-- Themes
+Plug('ellisonleao/gruvbox.nvim')
+-- Plug('eldritch-theme/eldritch.nvim')
+-- Plug 'fcancelinha/nordern.nvim'
+-- Plug 'xero/miasma.nvim'
+-- Plug 'diegoulloao/neofusion.nvim'
 
 Plug('lukas-reineke/indent-blankline.nvim') -- indentation lines
 
@@ -25,6 +30,13 @@ Plug(
 
 Plug('williamboman/mason.nvim')
 Plug('williamboman/mason-lspconfig.nvim')
+
+-- Completion and snippets
+Plug('hrsh7th/nvim-cmp')
+Plug('hrsh7th/cmp-nvim-lsp')
+Plug('hrsh7th/cmp-buffer')
+Plug('saadparwaiz1/cmp_luasnip')
+Plug('L3MON4D3/LuaSnip')
 Plug('neovim/nvim-lspconfig')
 
 Plug('nvim-lua/plenary.nvim')
@@ -41,9 +53,8 @@ Plug(
     }
 )
 
-Plug('hrsh7th/cmp-nvim-lsp')
-Plug('hrsh7th/nvim-cmp')
-
 Plug('stevearc/oil.nvim')
+
+Plug('sbdchd/neoformat') -- prettier
 
 vim.call('plug#end')

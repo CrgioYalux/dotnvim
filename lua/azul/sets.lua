@@ -31,3 +31,5 @@ seto.autoindent = true
 
 seto.background = 'dark'
 vim.cmd('colorscheme gruvbox')
+-- vim.cmd('colorscheme miasma')
+-- vim.cmd('colorscheme neofusion')

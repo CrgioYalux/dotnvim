@@ -10,6 +10,7 @@
 - [Buffer-Based Filesystem](https://github.com/stevearc/oil.nvim)
 - [Visual Aid for Indentation](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [Theme - Gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
+- [Snippets creation - LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 
 ### Requirements
 - Neovim v0.10+ (for native neovim snippets - if not, use a different snippet engine and specify it on the `autocmp_config.lua` file)
