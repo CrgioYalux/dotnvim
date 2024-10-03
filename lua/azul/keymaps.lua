@@ -32,3 +32,8 @@ remap.set('n', '-', '<CMD>Oil<CR>', {});
 
 -- Diagnostic
 remap.set('n', '<leader>e', vim.diagnostic.open_float)
+
+-- Lazygit
+remap.set('n', '<leader>gg', function ()
+    vim.cmd('LazyGit')
+end, { silent = true })

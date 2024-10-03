@@ -57,4 +57,6 @@ Plug('stevearc/oil.nvim')
 
 Plug('sbdchd/neoformat') -- prettier
 
+Plug('kdheepak/lazygit.nvim') -- Lazygit
+
 vim.call('plug#end')
