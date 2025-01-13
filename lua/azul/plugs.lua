@@ -14,10 +14,6 @@ Plug(
 
 -- Themes
 Plug('ellisonleao/gruvbox.nvim')
--- Plug('eldritch-theme/eldritch.nvim')
--- Plug 'fcancelinha/nordern.nvim'
--- Plug 'xero/miasma.nvim'
--- Plug 'diegoulloao/neofusion.nvim'
 
 Plug('lukas-reineke/indent-blankline.nvim') -- indentation lines
 

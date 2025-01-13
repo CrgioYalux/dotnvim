@@ -13,7 +13,8 @@ local servers = {
     tsserver = {},
     lua_ls = {},
     tailwindcss = {},
-    svelte = {}
+    svelte = {},
+    marksman = {},
 }
 
 local on_attach = function(_, bufnr)
@@ -36,8 +37,8 @@ local on_attach = function(_, bufnr)
 end
 
 mason_lspconfig.setup {
-    ensure_installed = { 'clangd', 'cssls', 'tsserver', 'lua_ls', 'tailwindcss', 'svelte' },
-    automatic_installation = false,
+    ensure_installed = { 'marksman', 'clangd', 'cssls', 'tsserver', 'lua_ls', 'tailwindcss', 'svelte' },
+    automatic_installation = true,
 }
 
 mason_lspconfig.setup_handlers {

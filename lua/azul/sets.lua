@@ -19,6 +19,8 @@ seto.number = true
 seto.signcolumn = 'yes'
 seto.breakindent = true
 seto.relativenumber = true
+seto.linebreak = true
+seto.breakat = ' '
 
 seto.clipboard = 'unnamedplus'
 
@@ -31,5 +33,3 @@ seto.autoindent = true
 
 seto.background = 'dark'
 vim.cmd('colorscheme gruvbox')
--- vim.cmd('colorscheme miasma')
--- vim.cmd('colorscheme neofusion')
