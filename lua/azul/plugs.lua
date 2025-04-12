@@ -14,6 +14,8 @@ Plug(
 
 -- Themes
 Plug('ellisonleao/gruvbox.nvim')
+Plug('zenbones-theme/zenbones.nvim') Plug('rktjmp/lush.nvim')
+
 
 Plug('lukas-reineke/indent-blankline.nvim') -- indentation lines
 

@@ -27,6 +27,9 @@ remap.set('n', '<leader><space>', builtin.buffers, {})
 remap.set('n', '<leader>fh', builtin.help_tags, {})
 remap.set('n', '<leader>sw', builtin.grep_string, {})
 
+-- Neoformat
+remap.set('n', '<leader>l', '<CMD>Neoformat<CR>', {});
+
 -- Oil
 remap.set('n', '-', '<CMD>Oil<CR>', {});
 

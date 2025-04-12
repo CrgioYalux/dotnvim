@@ -32,4 +32,4 @@ seto.expandtab = true
 seto.autoindent = true
 
 seto.background = 'dark'
-vim.cmd('colorscheme gruvbox')
+vim.cmd('colorscheme rosebones')
